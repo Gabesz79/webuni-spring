@@ -17,7 +17,6 @@ public class AirportApplication implements CommandLineRunner{ //Spring Boot eset
 	@Autowired
 	PriceService priceService;
 	
-	//Git proba
 	public static void main(String[] args) {
 		SpringApplication.run(AirportApplication.class, args);
 	}
